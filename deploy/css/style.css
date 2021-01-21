@@ -1,0 +1,173 @@
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(0, 240, 250, 0.1);
+  font-family: "SDSamliphopangche_Outline";
+}
+
+li {
+  list-style-type: none;
+  font-size: 25px;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 25, 255, 0.5);
+}
+
+@font-face {
+  font-family: "SDSamliphopangche_Outline";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.none {
+  display: none !important;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 50px;
+  margin: 30px;
+  transition: all 0.4s;
+  white-space: nowrap;
+}
+
+button {
+  font-family: "SDSamliphopangche_Outline";
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  box-shadow: -1px -1px 1px 1px #999;
+  transition: all 0.4s;
+}
+
+#create-btn {
+  margin-top: 20px;
+  width: 90%;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+button:hover {
+  background-color: rgba(0, 25, 255, 0.2);
+}
+
+.letter-len {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.adjective {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.settings,
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid rgba(0, 25, 255, 0.2);
+  border-radius: 10px;
+  width: 360px;
+  padding: 30px 25px;
+  margin-top: 20px;
+  transition: all 0.4s;
+}
+
+.type {
+  margin-top: 0;
+  font-size: 30px;
+}
+
+.settings p {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.copyright {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.site-copyright,
+.font-copyright,
+.api-copyright {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.cc-license {
+  width: 100px;
+}
+
+#chat {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+#chat-btn {
+  margin-top: 20px;
+}
+
+.chat_title {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 35px;
+  margin: 20px;
+  transition: all 0.4s;
+  white-space: nowrap;
+}
+
+.seatpicker {
+  margin-top: 30px;
+}
+
+.seatpicker a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 30px;
+  color: rgba(170, 120, 30, 0.8);
+  transition: all 0.4s;
+}
+
+.seatpicker img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 40px;
+  }
+  .settings,
+  .result {
+    width: 80%;
+  }
+}
